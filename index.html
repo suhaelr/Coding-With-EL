@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Coding With EL</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<!-- add icon link -->
+ <link rel = "icon" href = "Martz90-Circle-Plex.ico" type = "image/x-icon">
+ 
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: "Raleway", sans-serif
+    }
+
+    .w3-third img {
+        margin-bottom: -6px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .w3-third img:hover {
+        opacity: 1
+    }
+</style>
+
+<body class="w3-container w3-light-blue" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-bar-block w3-teal w3-animate-left w3-text-sand w3-collapse w3-top w3-center"
+        style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+        <h3 class="w3-padding-64 w3-center"><b>HELLO HELLO<br>HELLO</b></h3>
+        <a href="javascript:void(0)" onclick="w3_close()"
+            class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
+
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Push down content on small screens -->
+        <div class="w3-hide-large" style="margin-top:83px"></div>
+
+        <!-- About section -->
+        <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32 w3-animate-opacity" id="about">
+            <h4><b>About Me</b></h4>
+            <img src="mypic.jpg" alt="My Pic" class="w3-image w3-padding-32 w3-animate-left w3-card-4"
+                width="100" height="100">
+            <div class="w3-content w3-justify" style="max-width:600px">
+                <h4>What a time to be alive!</h4>
+                <p>Hi there, My name is Suhael Rizqullah. You can call me eL. I'm an Indonesian software engineer. I'm certified as a Professional Google IT Support and Google Developer. I usually deal with Python for Artificial Intellegence, C++ for high performance programs, C# .NET for desktop apps and Java for mobile app developments. I'm also a fullstack web developer by using some basic HTML, 
+                    CSS, Javascript and PHP. I can teach you all about the world of informatics engineering especially in a rapidly growing software industries and web developments. I can help you
+                    with some tips and tricks about how to land a job at a related companies especially about their interview mechanisms. 
+                </p>
+                <p>E-mail: suhaelr@gmail.com</p>
+                <p>Whatsapp: 0812-9012-9406</p>
+                <hr class="w3-opacity">
+                <h4 class="w3-padding-16">Technical Skills</h4>
+                <p class="w3-wide">Programming Language</p>
+                <div class="w3-light-grey w3-round">
+                     <div class="w3-container w3-light-green w3-round" style="width:95%">95%</div>
+                </div>
+                <p class="w3-wide">Web Frontend & Backend</p>
+                <div class="w3-light-grey w3-round">
+                     <div class="w3-container w3-lime w3-round" style="width:85%">85%</div>
+                 </div>
+                <p class="w3-wide">Software Development Life Cycle</p>
+                <div class="w3-light-grey w3-round">
+                     <div class="w3-container w3-green w3-round" style="width:100%">100%</div>
+                </div>
+                <h4 class="w3-padding-16">How much I charge?</h4>
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half w3-margin-bottom">
+                        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-animate-opacity">
+                            <li class="w3-deep-purple w3-xlarge w3-padding-32">Basic</li>
+                            <li class="w3-padding-16">Web Apps</li>
+                            <li class="w3-padding-16">Programming</li>
+                            <li class="w3-padding-16">Learning</li>
+                            <li class="w3-padding-16">Chat Support Only</li>
+                            <li class="w3-padding-16">
+                                <h2>Rp50.000</h2>
+                                <span class="w3-opacity">per hour</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w3-half">
+                        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-animate-opacity">
+                            <li class="w3-deep-purple w3-xlarge w3-padding-32">Pro</li>
+                            <li class="w3-padding-16">Web Apps and Software Development Life Cycle</li>
+                            <li class="w3-padding-16">Programming</li>
+                            <li class="w3-padding-16">Learning</li>
+                            <li class="w3-padding-16">Direct Face2Face and Phone Support</li>
+                            <li class="w3-padding-16">
+                                <h2>Rp250.000</h2>
+                                <span class="w3-opacity">per hour</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact section -->
+        <div class="w3-container w3-blue w3-padding-32 w3-padding-large w3-animate-opacity" id="contact">
+            <div class="w3-content" style="max-width:600px">
+                <h4 class="w3-center w3-justify"><b>Contact Me</b></h4>
+                <p>Do you want me to create a project for you? Or maybe learn something with me? Sign Up now and fill it up :) I love meeting
+                    new people!</p>
+                <form action="https://forms.gle/fzjDsjASkudeyH8t8">
+                    <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Sign Up Here</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-32 w3-aqua w3-animate-opacity">
+            <div class="w3-row-padding">
+                <div class="w3-third">
+                    <h3>INFO</h3>
+                    <p>Active on Mon to Fri at 7 am to 11 pm</p>
+                </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+        
+    </script>
+
+
+</body>
+
+</html>
