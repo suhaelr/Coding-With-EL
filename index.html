@@ -28,14 +28,33 @@
     .w3-third img:hover {
         opacity: 1
     }
+
+    .glow {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+
+
 </style>
 
-<body class="w3-container w3-light-blue" style="max-width:1600px">
+<body class="w3-container w3-light-blue" style="max-width:flexible">
 
     <!-- Sidebar/menu -->
     <nav class="w3-sidebar w3-bar-block w3-teal w3-animate-left w3-text-sand w3-collapse w3-top w3-center"
         style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-        <h3 class="w3-padding-64 w3-center"><b>HELLO HELLO<br>HELLO</b></h3>
+        <h3 class="w3-padding-64 w3-center"><b>WELCOME</b></h3>
         <a href="javascript:void(0)" onclick="w3_close()"
             class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
         <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
@@ -55,11 +74,16 @@
 
         <!-- About section -->
         <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32 w3-animate-opacity" id="about">
-            <h4><b>About Me & Why You Should Deep Dive in IT?</b></h4>
+            <h3 class="glow w3-padding-64 w3-center"><b>About Me & Why Should You Learn IT?</b></h3>
+            <br>
+            <br>
             <img src="mypic.jpg" alt="My Pic" class="w3-image w3-padding-32 w3-animate-left w3-card-4"
-                width="100" height="100">
-            <div class="w3-content w3-justify" style="max-width:600px">
-                <h4>What a time to be alive!</h4>
+                width="200" height="200">
+                <br>
+                <br>
+            <div class="w3-content w3-justify" style="max-width:relative">
+                <h4><b>What a time to be alive!</b>
+                </h4>
                 <p>Hi there, My name is Suhael Rizqullah. 
                     You can call me eL. I'm an Indonesian software engineer.
                     I'm certified as a Professional Google IT Support and Google Developer. 
@@ -71,7 +95,7 @@
                     I can help you too with some tips and tricks about how to land a job at a related company like FAANG and other local ones especially about their coding interview mechanisms and how do they do everyday work.
                     <br> 
                     <br>
-                    <h4>Why you should learn IT? </h4>
+                    <h4><b>Why you should learn IT?</b></h4>
                     <p>
                     There’s no denying that technology now dominates a huge amount of different industries. Being computer illiterate just won’t cut it any more in the world of work. And ‘learning to code’ seems to be the buzzword at the moment. 
                     And everyone from Bill Gates to Obama is encouraging young people to give it a go. Coding is the fundamental skill for jobs such as software development. There is currently a shortage of software developers worldwide, so learning to code can be an easy route into an open field of work. 
@@ -105,7 +129,7 @@
                 <div class="w3-row-padding" style="margin:0 -16px">
                     <div class="w3-half w3-margin-bottom">
                         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-animate-opacity">
-                            <li class="w3-deep-purple w3-xlarge w3-padding-32">Basic</li>
+                            <li class="glow w3-deep-purple w3-xlarge w3-padding-32">Basic</li>
                             <li class="w3-padding-16">Web Apps</li>
                             <li class="w3-padding-16">General Programming Concept</li>
                             <li class="w3-padding-16">Learning</li>
@@ -119,7 +143,7 @@
 
                     <div class="w3-half">
                         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-animate-opacity">
-                            <li class="w3-deep-purple w3-xlarge w3-padding-32">Pro</li>
+                            <li class="glow w3-deep-purple w3-xlarge w3-padding-32">Pro</li>
                             <li class="w3-padding-16">Web Apps and Software Development Life Cycle</li>
                             <li class="w3-padding-16">Deep Programming, Debugging and Refactoring</li>
                             <li class="w3-padding-16">Learning more about IT and Free Professional Consult</li>
@@ -150,7 +174,7 @@
         <footer class="w3-container w3-padding-32 w3-aqua w3-animate-opacity">
             <div class="w3-row-padding">
                 <div class="w3-third">
-                    <h3>INFO</h3>
+                    <h3><strong>INFO</strong></h3>
                     <p>Active on Mon to Fri at 7 am to 11 pm</p>
                     <p>Limited services offering, currently at 260 of 10.000 clients</p>
                     <p>Translate this page:</p>
